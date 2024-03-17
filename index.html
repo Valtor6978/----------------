@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<div class="bg">
+    <div class="comment-form">
+        <h2>ارسال دیدگاه</h2>
+            <form action="/submit-comment" method="post">
+            <label for="name">نام:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">ایمیل:</label>
+            <input type="email" id="name" name="name" required>
+            
+            <label for="comment">دیدگاه:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+            <center><input type="submit" value="ارسال"></center>
+        </form>
+        </div>
+</div>
+</body>
+</html>
